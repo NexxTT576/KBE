@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "845f164f-4f35-4feb-a064-442efd1793be",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "villagegirl": {
+      "ver": "1.0.3",
+      "uuid": "faafe300-25dc-430f-afd4-5337cbe0c482",
+      "rawTextureUuid": "845f164f-4f35-4feb-a064-442efd1793be",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 10,
+      "trimY": 4,
+      "width": 76,
+      "height": 40,
+      "rawWidth": 96,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

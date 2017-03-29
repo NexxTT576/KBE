@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "2b898ad1-2ffd-472c-9341-579562d8dfbe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "lavanpc": {
+      "ver": "1.0.3",
+      "uuid": "9d77edfc-0dbf-45b9-988a-927328ba5567",
+      "rawTextureUuid": "2b898ad1-2ffd-472c-9341-579562d8dfbe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 3,
+      "trimY": 5,
+      "width": 43,
+      "height": 15,
+      "rawWidth": 48,
+      "rawHeight": 24,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

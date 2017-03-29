@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "4d72d5f8-5abc-415d-b5bb-7aeb12685d3e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "barsheet": {
+      "ver": "1.0.3",
+      "uuid": "2e79b388-59ff-4a24-8568-74a17de6f71a",
+      "rawTextureUuid": "4d72d5f8-5abc-415d-b5bb-7aeb12685d3e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1440,
+      "height": 240,
+      "rawWidth": 1440,
+      "rawHeight": 240,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

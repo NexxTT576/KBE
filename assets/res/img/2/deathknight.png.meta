@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "01c4205c-6df6-4443-824f-c325e5704303",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "deathknight": {
+      "ver": "1.0.3",
+      "uuid": "55986acc-7ea8-407e-91b9-95636cb90001",
+      "rawTextureUuid": "01c4205c-6df6-4443-824f-c325e5704303",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 3,
+      "offsetY": 4,
+      "trimX": 12,
+      "trimY": 12,
+      "width": 402,
+      "height": 724,
+      "rawWidth": 420,
+      "rawHeight": 756,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

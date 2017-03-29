@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "cafa0d88-a580-4752-b729-791fedecb116",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "beachnpc": {
+      "ver": "1.0.3",
+      "uuid": "5a1320ac-88ef-4170-af19-579915697efa",
+      "rawTextureUuid": "cafa0d88-a580-4752-b729-791fedecb116",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 12,
+      "trimY": 4,
+      "width": 72,
+      "height": 40,
+      "rawWidth": 96,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
