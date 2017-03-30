@@ -1,4 +1,4 @@
-var KBEngine = KBEngine || {};
+window.KBEngine = {}; 
 
 /*-----------------------------------------------------------------------------------------
  JavaScript Inheritance
@@ -25,7 +25,7 @@ KBEngine.Class.extend = function (prop) {
     for (var name in prop) {
         // Check if we're overwriting an existing function
         prototype[name] = typeof prop[name] == "function" &&
-        typeof _super[name] == "function" && fnTest.test(prop[name]) ?
+            typeof _super[name] == "function" && fnTest.test(prop[name]) ?
             (function (name, fn) {
                 return function () {
                     var tmp = this._super;
@@ -440,7 +440,7 @@ KBEngine.MemoryStream = function (size_or_buffer) {
             i++;
 
             if (this.rpos + i >= this.buffer.byteLength)
-                throw(new Error("KBEngine.MemoryStream::readString: rpos(" + (this.rpos + i) + ")>=" +
+                throw (new Error("KBEngine.MemoryStream::readString: rpos(" + (this.rpos + i) + ")>=" +
                     this.buffer.byteLength + " overflow!"));
         }
 
@@ -585,7 +585,7 @@ KBEngine.MemoryStream = function (size_or_buffer) {
         this.writeUint32(size);
         var buf = new Uint8Array(this.buffer, this.wpos, size);
 
-        if (typeof(v) == "string") {
+        if (typeof (v) == "string") {
             for (i = 0; i < size; i++) {
                 buf[i] = v.charCodeAt(i);
             }
@@ -1379,7 +1379,7 @@ KBEngine.DATATYPE_UINT8 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1408,7 +1408,7 @@ KBEngine.DATATYPE_UINT16 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1437,7 +1437,7 @@ KBEngine.DATATYPE_UINT32 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1487,7 +1487,7 @@ KBEngine.DATATYPE_INT8 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1516,7 +1516,7 @@ KBEngine.DATATYPE_INT16 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1545,7 +1545,7 @@ KBEngine.DATATYPE_INT32 = function () {
     }
 
     this.isSameType = function (v) {
-        if (typeof(v) != "number") {
+        if (typeof (v) != "number") {
             return false;
         }
 
@@ -1595,7 +1595,7 @@ KBEngine.DATATYPE_FLOAT = function () {
     }
 
     this.isSameType = function (v) {
-        return typeof(v) == "number";
+        return typeof (v) == "number";
     }
 }
 
@@ -1616,7 +1616,7 @@ KBEngine.DATATYPE_DOUBLE = function () {
     }
 
     this.isSameType = function (v) {
-        return typeof(v) == "number";
+        return typeof (v) == "number";
     }
 }
 
@@ -1637,7 +1637,7 @@ KBEngine.DATATYPE_STRING = function () {
     }
 
     this.isSameType = function (v) {
-        return typeof(v) == "string";
+        return typeof (v) == "string";
     }
 }
 
@@ -1778,14 +1778,14 @@ KBEngine.DATATYPE_UNICODE = function () {
     }
 
     this.parseDefaultValStr = function (v) {
-        if (typeof(v) == "string")
+        if (typeof (v) == "string")
             return v;
 
         return "";
     }
 
     this.isSameType = function (v) {
-        return typeof(v) == "string";
+        return typeof (v) == "string";
     }
 }
 
@@ -1836,7 +1836,7 @@ KBEngine.DATATYPE_ARRAY = function () {
     this.type = null;
 
     this.bind = function () {
-        if (typeof(this.type) == "number")
+        if (typeof (this.type) == "number")
             this.type = KBEngine.datatypes[this.type];
     }
 
@@ -1883,7 +1883,7 @@ KBEngine.DATATYPE_FIXED_DICT = function () {
         for (itemkey in this.dicttype) {
             var utype = this.dicttype[itemkey];
 
-            if (typeof(this.dicttype[itemkey]) == "number")
+            if (typeof (this.dicttype[itemkey]) == "number")
                 this.dicttype[itemkey] = KBEngine.datatypes[utype];
         }
     }

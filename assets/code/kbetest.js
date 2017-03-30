@@ -33,6 +33,7 @@ cc.Class({
         args.ip = "127.0.0.1";
         args.port = 20013;
         KBEngine.create(args);
+        cc.log(R);
     },
 
     // called every frame, uncomment this function to activate update callback
